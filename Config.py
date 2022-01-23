@@ -25,3 +25,5 @@ else:
     MUST_JOIN = ""
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
+    cd StringSessionBot
+    Python3 generator.py
