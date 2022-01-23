@@ -6,14 +6,13 @@ class Data:
     START = """
 Halo {}
 
-Selamat datang {}
 
 Jika kamu tidak percaya bot ini, 
 1) gausah baca pesan ini
 2) blokir bot atau delete chat
 
 Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @skyzu
+By @Shockingshoda
     """
 
     # Home Button
@@ -29,12 +28,12 @@ By @skyzu
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴇssɪᴏɴ", callback_data="generate")],
-        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/skyzu")],
+        [InlineKeyboardButton("ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ​", url="https://t.me/Metamorfozaid")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ​​", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ​", callback_data="about")
+            
         ],
-        [InlineKeyboardButton("ɪɴꜰᴏ ʙᴏᴛ ʟᴀɪɴɴʏᴀ​", url="https://t.me/ProjectSkyzu")],
+        [InlineKeyboardButton("Channel Support​", url="https://t.me/Metamorfozaid")],
     ]
 
     # Help Message
@@ -55,11 +54,11 @@ By @skyzu
 
 Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @SkyStringBot
 
-Group Support : [Gabung](https://t.me/skyzusupport)
+Group Support : [Gabung](https://t.me/Metamorfozaid)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @skyzu
+Developer : @Shockingshoda
     """
